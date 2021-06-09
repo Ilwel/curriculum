@@ -1,0 +1,46 @@
+.projects-field{
+
+    /* border: dashed 0.2rem var(--color-pallete-3); */
+    color: var(--color-pallete-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20rem;
+    max-width: 60%;
+    min-height: 100vh;
+    min-width: 60%;
+    padding: 10rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.projects-field h2{
+
+    /* animation: gradient-animation 3s infinite alternate;
+    background-clip: text;
+    background-image: var(--gradient);
+    background-size: 500%; */
+    color: var(--color-pallete-2);
+    font-size: 6rem;
+    font-weight: 400; 
+    font-style: italic;  
+
+}
+
+.projects-field p{
+
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+    color:var(--color-pallete-3)
+
+}
+
+.content{
+
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}

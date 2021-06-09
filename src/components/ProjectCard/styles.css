@@ -1,0 +1,106 @@
+.project-card{
+
+    /* border: dashed 0.1rem var(--color-pallete-3); */
+    padding: 5rem;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.project-card h3{
+
+    font-size: 4rem;
+    font-weight: 200;
+
+}
+
+.project-card p{
+
+    margin-top: 4rem;
+    max-width: 50%;
+
+}
+
+.project-card a{
+
+    all: unset;
+    width: 20rem;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-card a:hover{
+
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.project-card img{
+
+    min-width: 20rem;
+
+}
+
+.tags{
+
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.tags span{
+
+    animation: gradient-animation 3s infinite alternate;
+    background-clip: text;
+    background-size: 500%;
+    color: transparent;
+    font-size: 2rem;
+}
+
+.tags .js{
+
+
+    background-image: var(--gradientJS);
+    
+}
+
+.tags .css{
+
+
+    background-image: var(--gradientCSS);
+    
+}
+
+.tags .html{
+
+
+    background-image: var(--gradientHTML);
+    
+}
+
+.tags .node{
+
+
+    background-image: var(--gradientNODE);
+    
+}
+
+.tags .react{
+
+
+    background-image: var(--gradientREACT);
+    
+}
+
+.tags .bt{
+
+
+    background-image: var(--gradientBT);
+    
+}
