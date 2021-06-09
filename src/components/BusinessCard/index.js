@@ -43,7 +43,11 @@ function BusinessCard({ name, email, phone, local, github, linkedin, instagram }
                 </div>
 
             </div>
-            <div className="image-field"></div>
+            <div className="image-field">
+
+                <button>Mais Informações</button>
+
+            </div>
         </div>
     )
 

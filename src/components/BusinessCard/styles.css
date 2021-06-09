@@ -99,11 +99,35 @@
 .image-field{
 
 
+    align-items: flex-end;
     background: url('../../assets/perfil.jpg') center center no-repeat;
     border-radius: 1.5rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 100%);
+    display: flex;
     flex: 1;
+    justify-content: flex-end;
     opacity: 0.9;
+    padding: 1rem;
+
+}
+.image-field button{
+
+    all: unset;
+    animation: gradient-animation 3s infinite alternate;
+    background-image: var(--gradient);
+    background-size: 300%;
+    border-radius: 1.5rem;
+    min-width: 2rem;
+    opacity: 0.8;
+    padding: 1.2rem;
+    
+
+}
+
+.image-field button:hover{
+
+    cursor: pointer;
+    opacity: 1;
 
 }
 
@@ -127,3 +151,4 @@
     animation: apear 1s forwards;
 
 }
+
