@@ -7,6 +7,7 @@
     }100%{
 
         background-position: left;
+        
 
     }
 
@@ -26,6 +27,7 @@
 
 .business-card{
 
+    animation: gradient-animation 3s infinite alternate;
     background-image: var(--gradient);
     background-size: 400%;
     border-radius: 1.5rem;
@@ -34,13 +36,6 @@
     min-height: 35rem;
     min-width: 60rem;
     padding: 1rem;
-
-}
-
-.business-card:hover{
-
-    animation: gradient-animation 2s;
-
 }
 
 .text-field{
@@ -129,7 +124,6 @@
 
 .links img:hover{
     
-    animation: apear 1s;
-    animation-fill-mode: forwards;
+    animation: apear 1s forwards;
 
 }
