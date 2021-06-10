@@ -1,10 +1,18 @@
 .project-card{
 
     /* border: dashed 0.1rem var(--color-pallete-3); */
-    padding: 5rem;
-    min-height: 30rem;
-    display: flex;
     align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.5rem var(--color-pallete-3);
+    display: flex;
+    min-height: 30rem;
+    opacity: 0.4;
+    padding: 5rem;
+    transition: 0.5s;
+}
+
+.project-card:hover{
+
+    opacity: 1;
 
 }
 
@@ -17,6 +25,8 @@
 
 .project-card p{
 
+    color: var(--color-pallete-4);
+    line-height: 2rem;
     margin-top: 4rem;
     max-width: 50%;
 
@@ -25,11 +35,13 @@
 .project-card a{
 
     all: unset;
-    width: 20rem;
-    opacity: 0.7;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    justify-content: center;
+    opacity: 0.7;
 
 }
 
@@ -42,15 +54,16 @@
 
 .project-card img{
 
-    min-width: 20rem;
+    max-width: 15rem;
+    min-width: 15rem;
 
 }
 
 .tags{
 
-    margin-top: 4rem;
     display: flex;
     gap: 2rem;
+    margin-top: 4rem;
 
 }
 

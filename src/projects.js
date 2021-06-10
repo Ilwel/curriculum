@@ -27,21 +27,21 @@ const projects = [
         tags:[
             
             {text:'C', type:'css'},
-            {text:'Structure Data', type:'node'},
+            {text:'Structured Data', type:'node'},
         ],
         link:'https://github.com/Ilwel/listaEncadeadaC',
 
     },
     {
 
-        name:'SMC Crud',
+        name:'SMC CRUD',
         about:'Fiz um simples CRUD em Express para gerenciar fichas de rpg armazenadas em um banco de dados mySql',
         img:rpgIcon,
         tags:[
             
             {text:'NodeJS', type:'node'},
             {text:'Javascript', type:'js'},
-            {text:'mySql', type:'css'},
+            {text:'mySQL', type:'css'},
             {text:'Bootstrap', type:'bt'},
         ],
         link:'https://github.com/Ilwel/listaEncadeadaC',

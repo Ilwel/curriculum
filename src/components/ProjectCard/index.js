@@ -24,6 +24,7 @@ function ProjectCard({name, about, img, tags, link}) {
             <a href={link} target="blanck">
                 
                <img src={img} alt="project img" />
+               Clique e Veja
                 
             </a>
              
