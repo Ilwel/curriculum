@@ -7,8 +7,8 @@
     color: var(--color-pallete-3);
     display: flex;
     margin-top: 15%;
-    min-height: 35rem;
-    min-width: 60rem;
+    height: 35rem;
+    width: 60rem;
     padding: 1rem;
 }
 
@@ -72,7 +72,6 @@
 
 .image-field{
 
-
     align-items: flex-end;
     background: url('../../assets/perfil.jpg') center center no-repeat;
     border-radius: 1.5rem;
@@ -126,3 +125,55 @@
 
 }
 
+
+@media only screen and (max-width:700px) {
+  
+
+    .business-card h1{
+
+        text-align: center;
+
+    }
+
+    .business-card h2{
+
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .business-card .dashed{
+
+        margin-left: 5rem;
+
+    }
+
+    .business-card{
+      
+      flex-direction: column;
+      max-width: 50%;
+      min-height: 40rem;
+      align-items: center;
+  
+    }
+  
+    .image-field{
+        
+        clip-path: none;
+        background-image: none;
+  
+    }
+
+    .field img{
+
+        display: none;
+
+    }
+
+    .field{
+        
+        justify-content: center;
+
+    }
+   
+}
