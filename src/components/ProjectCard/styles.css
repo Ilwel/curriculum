@@ -1,6 +1,5 @@
 .project-card{
 
-    /* border: dashed 0.1rem var(--color-pallete-3); */
     align-items: center;
     box-shadow: 0.1rem 0.1rem 0.5rem var(--color-pallete-3);
     display: flex;
