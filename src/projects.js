@@ -44,7 +44,7 @@ const projects = [
             {text:'mySQL', type:'css'},
             {text:'Bootstrap', type:'bt'},
         ],
-        link:'https://github.com/Ilwel/listaEncadeadaC',
+        link:'https://github.com/Ilwel/smc_crud',
 
     },
 
