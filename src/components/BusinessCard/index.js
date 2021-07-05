@@ -45,7 +45,7 @@ function BusinessCard({ name, email, phone, local, github, linkedin, instagram }
             </div>
             <div className="image-field">
 
-                <button>Mais Informações</button>
+                {/* <button>Mais Informações</button> */}
 
             </div>
         </div>

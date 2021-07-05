@@ -10,7 +10,7 @@ function ExperienceField() {
     return (
         <div className="experience-field">
             <h2>Formação</h2>
-            <p>O que eu estudei</p>
+            <p>O que estudei</p>
 
 
             <div className="formation">
@@ -20,7 +20,7 @@ function ExperienceField() {
             </div>
 
             <h2>Experiência</h2>
-            <p>Onde eu trabalhei</p>
+            <p>Onde trabalhei</p>
             
             <div className="experience">
 
